@@ -1,0 +1,148 @@
+body{  /* generale */
+    margin: 0;
+    color: white;
+}
+
+a{text-decoration: none;
+}
+
+.fl-box{ /* flex */
+    display: flex;
+}
+
+.fl-colums{ /* flex colun aside */
+    display: flex;
+    flex-direction: column;
+}
+
+.misbl{ /* proprieta aside black */
+    width: 250px;
+    height: 5000px;
+    background-color: black;
+    color: whitesmoke;
+}
+.art-mis{ /* distanziamento gen */
+    margin-left: 0.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.fig-mis{   /* LOGO IN FLEX */
+    margin-left: 20px;
+}
+
+.hr-bl{ /* div hr aside black */
+    border: solid 0.5px white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.area-mis{
+    width: 100%;
+}
+
+.a-fig-mis{margin-top: 150px;}
+
+.a-h5-mis{
+    margin: 0;
+    margin-top: 130px;
+}
+
+.a-tit-mis{
+    font-size: 40px;
+    margin: 0;
+    margin-top: 30px;
+}
+.a-h6-color{
+    color: lightgray;
+    margin: 0;
+}
+.a-h6-color-w{
+    color: white;
+    margin-top: 7px;
+}
+.a-color{
+    margin-bottom: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg,
+    rgba(0,0,0,1) 10%, 
+    rgba(2,0,36,1) 30%, 
+    rgba(9,89,121,1) 60%, 
+    rgba(0,212,255,1) 100%)
+    ;}
+
+.a-light{
+    filter: brightness(0.6);
+}
+
+.a-button{
+    border: solid black;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.a-h5-color-hr{
+    color: lightgrey;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.a-hr{
+    margin: 0;
+    border: solid 0.8px lightgray;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.a-label-mis{margin-left: 440px;}
+
+.album-mis{
+    margin-left: 500px;
+}
+
+.label-mis{
+   margin-top: 20px;
+  align-items: center;
+}
+
+.a-mis-1{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.a-mis-2{
+    margin-left: 20px;
+}
+
+.a-mis-2 h1{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;}
+.a-mis-2 p {
+    font-size: 10px;
+    margin-top: -1px;
+    color: lightgray;
+}
+
+
+
+.ora{margin-left: 900px;
+    margin-top: -2px;
+}
+
+.bck-black{
+    margin: 0;
+    height: 100%;
+    background-color: black;
+}
+
+
+
+.corr-sec-2{
+
+    margin-top: -0.5px;
+    padding-top: 15px;
+}
